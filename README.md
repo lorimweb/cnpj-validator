@@ -1,6 +1,6 @@
-# Validador de CNPJ
+# Validador de CNPJ Alfanumérico
 
-Uma função JavaScript para validação de novo CNPJ Alfanumérico (Cadastro Nacional da Pessoa Jurídica).
+Uma função JavaScript para validação do novo CNPJ Alfanumérico (Cadastro Nacional da Pessoa Jurídica).
 
 ## Instalação
 
