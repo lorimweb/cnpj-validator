@@ -1,12 +1,12 @@
 function validaCNPJ(cnpj) {
-  var multiplicador1 = [5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2];
-  var multiplicador2 = [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2];
+  const multiplicador1 = [5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2];
+  const multiplicador2 = [6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2];
 
-  var digitosIdenticos = true;
-  var ultimoDigito = 0;
-  var posicao = 0;
-  var totalDigito1 = 0;
-  var totalDigito2 = 0;
+  const digitosIdenticos = true;
+  const ultimoDigito = 0;
+  const posicao = 0;
+  const totalDigito1 = 0;
+  const totalDigito2 = 0;
 
   const isValidInput = (c) => {
     return /[0-9A-Z]/.test(c);
